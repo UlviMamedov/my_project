@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, serif;
+}
+
+header {
+    width: 100%;
+    height: 101px;
+    background: #fff;
+}
+
+.container {
+    width: 90%;
+    height: 101px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container img {
+    width: 206px;
+    height: 101px;
+}
+
+.container ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 70px;
+}
+
+.container ul li:first-child a {
+    color: #FA4A0C;
+}
+
+.container ul li a {
+    color: #252B42;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.first-main {
+    width: 100%;
+    height: 1050px;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.first-main img {
+    width: 100%;
+    height: 850px;
+}
+
+.first-main-section {
+    width: 1700px;
+    height: 800px;
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.first-main-section-type h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.first-main-section-title h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.first-main-section-description p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 1px;
+    color: #f6f6f6;
+}
+
+.first-main-section-buttons button {
+    width: 260px;
+    padding: 20px 0;
+    border-radius: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    line-height: 36px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.playstore-button {
+    background: #FA4A0C;
+    border: 0;
+}
+
+.appstore-button {
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+.phone-image {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-center {
+    position: absolute;
+    bottom: -155px;
+}
+
+.first-image {
+    z-index: 10;
+    position: absolute;
+    right: -50px;
+    top: 50px;
+}
+
+.second-image {
+    position: relative;
+    left: 100px;
+    z-index: 0;
+    top: 290px;
+}
+.line {
+    width: 1300px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.second-main-title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.second-main-title h1 {
+    color: #000;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    opacity: 0.8;
+}
+
+.second-main_first-section {
+    width: 100%;
+    height: 830px;
+    display: flex;
+}
+
+.second-main_first-section-img {
+    width: 50%;
+    height: 830px;
+}
+
+.second-main_first-section-img img {
+    float: right;
+}
+
+.second-main_first-section-block {
+    width: 50%;
+    height: 830px;
+    display: flex;
+    align-items: center;
+}
+
+.create-account-text a {
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+}
+
+.about-create-account h1 {
+    font-size: 40px;
+    color: #252B42;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+
+.account-text span {
+    color: #737373;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.second-main_second-section {
+    width: 100%;
+    height: 830px;
+    display: flex;
+    position: relative;
+    bottom: 110px;
+}
+
+.second-main_second-section-img {
+    width: 50%;
+    height: 830px;
+}
+
+.second-main_second-section-img img {
+    float: left;
+    margin-left: 70px;
+}
+
+.second-main_second-section-block {
+    width: 50%;
+    height: 830px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: -50px;
+}
+
+
+
+.second-main_third-section {
+    width: 100%;
+    height: 830px;
+    display: flex;
+    position: relative;
+    bottom: 110px;
+}
+
+.second-main_third-section-img {
+    width: 50%;
+    height: 830px;
+}
+
+.second-main_third-section-img img {
+    float: right;
+}
+
+.second-main_third-section-block {
+    width: 50%;
+    height: 830px;
+    display: flex;
+    align-items: center;
+}
+
+.third-main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.third-main img {
+    width: 100%;
+    height: 550px;
+}
+
+.third-main_section {
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-main_section-title h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 57px;
+}
+
+.third-main_section-text p {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    position: relative;
+    bottom: 10px;
+}
+
+.button-style {
+    color: #fff;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.third-main_play-store-button {
+    width: 150px;
+    height: 70px;
+    background: #FA4A0C;
+    border: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.third-main_app-store-button {
+    width: 180px;
+    height: 65px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icons svg {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-end-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+
